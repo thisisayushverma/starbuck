@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#uploadimg{
+    background-color: rgb(145, 151, 151);
+    border: 2px solid green;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+/* #uploadimg div{
+    border: 2px dotted rgb(50, 49, 49);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ */
+
+svg{
+    width: 50%;
+    height: 50%;
+    /* fill: beige; */
+}
+
+.uploadClass{
+    /* border: 5px solid brown; */
+    padding: 1%;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sideNavbar{
+    box-sizing: border-box;
+    width: 12%;
+    margin: 1%;
+    /* border: 1px solid black; */
+    height: 100%;
+    /* padding: 1%; */
+    /* overflow: hidden; */
+}
+
+.sideNavbar button {
+    text-align: start;
+    margin: 10px;
+    display: block;
+    border: none;
+    box-sizing: content-box;
+    height: 10%;
+    background-color: transparent;
+    padding: 2%;
+    padding-left: 3%;
+    letter-spacing: 1px;
+    font-size: medium;
+    font-weight: 500;
+    width: 90%;
+}
+
+
+.sideNavbar button:hover{
+    background-color: #0b7a55;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+.otherSideOfNavbar{
+    width: 85%;
+    height: 100%;
+    /* border: 5px solid yellow; */
+}
+
+
+
+.addTypeClass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.addTypeClass button{
+    margin: 10px;
+    display: block;
+    border: none;
+    box-sizing: content-box;
+    height: 8%;
+    padding: 1%;
+    letter-spacing: 1px;
+    font-size: large;
+    width: 10%;
+    background-color: #0b7a55;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+
+.addTypeClass input{
+    width: 80%;
+    font-size: 2vw;
+    padding: 1%;
+    padding-left: 2%;
+    border-radius: 10px;
+}
+
+
+.afterTheClicked{
+    background-color: #0b7a55;
+    color: #000;
+    font-weight: 700;
+    border-radius: 10px;
+}

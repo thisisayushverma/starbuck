@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu:Starbuck Coffee Company</title>
+    <%- include('../parts/imports.ejs') %>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    
+</head>
+<body>
+    
+
+    <%- include('../parts/header.ejs',{id:'menu'}) %>
+
+    <div id="loader">
+        <dotlottie-player src="https://lottie.host/15c0710f-4a25-440b-909d-8564b3e833a0/ZV4mq7qMEL.lottie" background="transparent" speed="1" style="display: block;
+        margin: auto;  width: 300px; height: 300px" loop autoplay></dotlottie-player>
+    </div>
+
+
+
+
+    <%- include('../parts/footer.ejs') %>
+    <script src="../public/javascript/menu.js"></script>
+</body>
+</html>
